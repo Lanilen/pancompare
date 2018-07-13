@@ -34,6 +34,9 @@ perfect_pairs.pl:
  of single-space separated perfect pairs of tags. Run this individually for each alignment to
  a different reference genome you have.
  
+ Alignments should be run END-TO-END (and not as "local" alignments with soft clipping). This is
+ Bowtie2's default.
+ 
 compare_lists.pl:
  Usage: compare_lists.pl (unique|intersect) file1 file2 (...) fileN
  
