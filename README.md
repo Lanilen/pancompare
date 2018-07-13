@@ -37,6 +37,8 @@ perfect_pairs.pl:
 compare_lists.pl:
  Usage: compare_lists.pl (unique|intersect) file1 file2 (...) fileN
  
+ Depends on List::Compare perl module (cpanm List::Compare).
+ 
  The script can be run in two ways:
 
  compare_lists.pl intersect file1 file2 file3 ...
